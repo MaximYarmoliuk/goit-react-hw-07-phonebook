@@ -13,6 +13,7 @@ class App extends Component {
   componentDidMount() {
     this.props.onFetchContacts();
   }
+
   render() {
     const { themeConfig, type } = this.props.theme;
     return (
